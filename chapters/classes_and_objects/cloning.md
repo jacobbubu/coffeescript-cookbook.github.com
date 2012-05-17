@@ -10,6 +10,7 @@ You want to clone an object with all its sub-objects.
 ## Solution
 
 {% highlight coffeescript %}
+
 clone = (obj) ->
   if not obj? or typeof obj isnt 'object'
     return obj
